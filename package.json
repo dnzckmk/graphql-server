@@ -1,0 +1,28 @@
+{
+  "name": "gql-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "compile": "tsc",
+    "start": "npm run compile && node ./dist/src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@apollo/server": "^4.9.2",
+    "graphql": "^16.8.0"
+  },
+  "devDependencies": {
+    "@graphql-tools/mock": "^9.0.0",
+    "@graphql-tools/schema": "^10.0.0",
+    "@types/jest": "^29.5.4",
+    "@types/node": "^20.5.7",
+    "jest": "^29.6.4",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  }
+}
