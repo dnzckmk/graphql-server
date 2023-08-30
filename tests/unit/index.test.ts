@@ -17,7 +17,7 @@ const mocks = {
   }),
 };
 
-describe("Unit test for add book", function () {
+describe("Unit test for fetching books", function () {
   it("returns list of books", async () => {
     const testServer = new ApolloServer({
       schema: addMocksToSchema({
